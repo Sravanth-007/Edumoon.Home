@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+/*import React, { Component } from 'react'
+import $ from 'jquery';
+//import "./jquery.slicebox.js"
+import jQuery from "jquery"
+
+
+
+export default class Latestevents extends Component {
+
+    componentDidMount () {
+       $(function() {
+				
+            var Page = (function() {
+
+                var $navArrows = $( '#nav-arrows' ).hide(),
+                    $shadow = $( '#shadow' ).hide(),
+                    slicebox = $( '#sb-slider' ).slicebox( {
+                        onReady : function() {
+
+                            $navArrows.show();
+                            $shadow.show();
+
+                        },
+                        orientation : 'r',
+                        cuboidsRandom : true,
+                        disperseFactor : 30
+                    } ),
+                    
+                    init = function() {
+
+                        initEvents();
+                        
+                    },
+                    initEvents = function() {
+
+                        // add navigation events
+                        $navArrows.children( ':first' ).on( 'click', function() {
+
+                            slicebox.next();
+                            return false;
+
+                        } );
+
+                        $navArrows.children( ':last' ).on( 'click', function() {
+                            
+                            slicebox.previous();
+                            return false;
+
+                        } );
+
+                    };
+
+                    return { init : init };
+
+            })();
+
+            Page.init();
+
+        });
+    }
+
+    render() {          
+        return (
+         <div>
+
+<h1 style={{textAlign: "center" ,color: "black" ,margin:"5%"}} >LATEST EVENTS</h1>
+
+      <div className="container">
+
+       
+        <div className="wrapper"   >
+
+            <ul id="sb-slider" className="sb-slider">
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2969141180" target="_blank"><img src="./images/latest2.jfif" alt="image1"/></a>
+                    <div className="sb-description">
+                        <h3>Creative Lifesaver</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968268187" target="_blank"><img src="2.jpg" alt="image2"/></a>
+                    <div className="sb-description">
+                        <h3>Honest Entertainer</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968114825" target="_blank"><img src="3.jpg" alt="image1"/></a>
+                    <div className="sb-description">
+                        <h3>Brave Astronaut</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968122059" target="_blank"><img src="4.jpg" alt="image1"/></a>
+                    <div className="sb-description">
+                        <h3>Affectionate Decision Maker</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2969119944" target="_blank"><img src="5.jpg" alt="image1"/></a>
+                    <div className="sb-description">
+                        <h3>Faithful Investor</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968126177" target="_blank"><img src="6.jpg" alt="image1"/></a>
+                    <div className="sb-description">
+                        <h3>Groundbreaking Artist</h3>
+                    </div>
+                </li>
+                <li>
+                    <a href="http://www.flickr.com/photos/strupler/2968945158" target="_blank"><img src="7.jpg" alt="image1"/></a>
+                    <div className="sb-description">
+                        <h3>Selfless Philantropist</h3>
+                    </div>
+                </li>
+            </ul>
+
+            <div id="shadow" className="shadow"></div>
+
+            <div id="nav-arrows" className="nav-arrows">
+                <a href="#">Next</a>
+                <a href="#">Previous</a>
+            </div>
+
+        </div>
+       
+
+    </div>
+
+         </div>
+        );
+    }
+}
+*/
