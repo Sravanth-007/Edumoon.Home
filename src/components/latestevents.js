@@ -12,8 +12,8 @@ export default class Latestevents extends Component {
     render() {          
         return (
          <div>
-
-
+<i>
+<h1  style={{textAlign: "center" ,color: "black" ,margin:"5%" ,marginBottom: "20px"  }}> Latest Events</h1></i>
 
    </div>
          

@@ -6,7 +6,7 @@ export default class Popularcourses extends Component {
     render() {
         return (
          <div>
-  <h1  style={{textAlign: "center" ,color: "black" ,margin:"5%" ,marginBottom: "20px"}}>POPULAR ONLINE COURSES</h1>
+  <i><h1  style={{textAlign: "center" ,color: "black" ,margin:"5%" ,marginBottom: "20px"}}>POPULAR ONLINE COURSES</h1></i>
 <h5>expert team teaches all the popular courses like Web development, app development and EAMCET</h5>
                 
 

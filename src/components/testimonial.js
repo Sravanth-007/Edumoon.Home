@@ -6,7 +6,7 @@ export default class Testimonial extends Component {
     render() {
         return (
          <div>
-<h1  style={{textAlign: "center" , color:  "black" , margin:"5%",marginBottom: "20px"}}>TESTIMONIALS</h1>
+<i><h1  style={{textAlign: "center" , color:  "black" , margin:"5%",marginBottom: "20px"}}>TESTIMONIALS</h1></i>
 
 <h5>we value our learners and let's see what they said about us.</h5>
 

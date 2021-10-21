@@ -10,6 +10,8 @@ import  Grid from './components/grid';
 import  Footer from './components/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './components/style.css';
+ import ImageSlider from './components/ImageSlider';
+import { SliderData } from './components/SliderData';
 import uuid from 'uuid';
 
 
@@ -26,6 +28,7 @@ class App extends Component{
         <Homeslider />
         <Patners />
         <Latestevents />
+        {<ImageSlider slides={SliderData} /> }
         <Popularcourses />
         <Testimonial />
         <Grid />

@@ -8,7 +8,7 @@ export default class Grid extends Component {
          <div>
 
 
-<h1  style={{textAlign: "center" ,color: "black" ,margin:"5%" ,marginBottom: "20px"}}>LIVE UPDATES</h1>
+<i><h1  style={{textAlign: "center" ,color: "black" ,margin:"5%" ,marginBottom: "20px"}}>LIVE UPDATES</h1></i>
     <h5 style={{marginBottom: "50px"}}>expert team not only teaches but also organises webnars provide internships and many more</h5>
                 
     

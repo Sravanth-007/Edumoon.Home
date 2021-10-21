@@ -2005,6 +2005,16 @@ p.info {
   display: block;
 }
 
+.leftt-arroww {
+left:50px !important
+}
+
+.rightt-arroww {
+  right:50px !important
+  }
+
+
+
 .sidebar.open{
   opacity: 1;
 }
@@ -2295,7 +2305,12 @@ p.info {
 
 @media only screen and (max-width: 539px)
 {
-	
+	.image {
+    height: 500px;
+   
+    border-radius: 10px;
+  }
+  
 }
 
 /************
@@ -2611,5 +2626,58 @@ p.info {
   }
   .counter_form_button:hover {
     box-shadow: 0px 5px 40px rgba(29, 34, 47, 0.45);
+  }
+  
+
+
+  
+
+  
+  .sliderer {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+ 
+    height: 500px;
+    /*width: 423px;*/
+    border-radius: 10px;
+  }
+  
+  .rightt-arroww {
+    position: absolute;
+    top: 50%;
+    right: 300px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .leftt-arroww {
+    position: absolute;
+    top: 50%;
+    left: 300px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slidee {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slidee.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
   }
   
