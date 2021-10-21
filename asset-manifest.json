@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/github.io/Edumoon.Home/static/css/main.42c876ad.chunk.css",
+    "main.js": "/github.io/Edumoon.Home/static/js/main.3dcbc83a.chunk.js",
+    "main.js.map": "/github.io/Edumoon.Home/static/js/main.3dcbc83a.chunk.js.map",
+    "runtime-main.js": "/github.io/Edumoon.Home/static/js/runtime-main.5837d8ce.js",
+    "runtime-main.js.map": "/github.io/Edumoon.Home/static/js/runtime-main.5837d8ce.js.map",
+    "static/css/2.800be05e.chunk.css": "/github.io/Edumoon.Home/static/css/2.800be05e.chunk.css",
+    "static/js/2.8efcd278.chunk.js": "/github.io/Edumoon.Home/static/js/2.8efcd278.chunk.js",
+    "static/js/2.8efcd278.chunk.js.map": "/github.io/Edumoon.Home/static/js/2.8efcd278.chunk.js.map",
+    "static/js/3.eb419e14.chunk.js": "/github.io/Edumoon.Home/static/js/3.eb419e14.chunk.js",
+    "static/js/3.eb419e14.chunk.js.map": "/github.io/Edumoon.Home/static/js/3.eb419e14.chunk.js.map",
+    "index.html": "/github.io/Edumoon.Home/index.html",
+    "static/css/2.800be05e.chunk.css.map": "/github.io/Edumoon.Home/static/css/2.800be05e.chunk.css.map",
+    "static/css/main.42c876ad.chunk.css.map": "/github.io/Edumoon.Home/static/css/main.42c876ad.chunk.css.map",
+    "static/js/2.8efcd278.chunk.js.LICENSE.txt": "/github.io/Edumoon.Home/static/js/2.8efcd278.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5837d8ce.js",
+    "static/css/2.800be05e.chunk.css",
+    "static/js/2.8efcd278.chunk.js",
+    "static/css/main.42c876ad.chunk.css",
+    "static/js/main.3dcbc83a.chunk.js"
+  ]
+}
